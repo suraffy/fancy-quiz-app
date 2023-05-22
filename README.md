@@ -1,4 +1,4 @@
-# hello-world
+# fancy-quiz-app
 
 ## Project setup
 ```
