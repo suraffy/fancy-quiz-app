@@ -4,6 +4,10 @@
       :numCorrect="numCorrect"
       :numTotal="numTotal"
     />
+
+    <SubHeader
+      :questionNumber="index + 1"
+    ></SubHeader>
     
     <div class="row">
       <div class="col-md-8 offset-md-2">
@@ -20,12 +24,14 @@
 
 <script>
 import Header from './components/Header'
+import SubHeader from './components/SubHeader'
 import QuestionBox from './components/QuestionBox'
 
 export default {
   name: 'App',
   components: {
     Header,
+    SubHeader,
     QuestionBox
   },
   data() {
